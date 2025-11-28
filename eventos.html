@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos - Mi Portafolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html"><i class="bi bi-star-fill"></i> Mi Portafolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contacto">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-outline-light ms-2" href="index.html">← Volver</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Hero -->
+    <section class="hero-section py-5">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-4">Próximos Eventos</h1>
+            <p class="lead text-muted">Foro con eventos próximos de desarrollo web y tecnología</p>
+        </div>
+    </section>
+
+    <!-- Contenido Principal -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-6">
+                    <img src="media/eventos.jpg" alt="Eventos" class="img-fluid rounded shadow" width="100%" height="100%">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bold mb-4">Características Principales</h2>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><i class="bi bi-check-circle text-success me-2"></i> <strong>Calendario de eventos</strong></li>
+                        <li class="mb-3"><i class="bi bi-check-circle text-success me-2"></i> <strong>Registro de asistentes</strong></li>
+                        <li class="mb-3"><i class="bi bi-check-circle text-success me-2"></i> <strong>Sistema de notificaciones</strong></li>
+                        <li class="mb-3"><i class="bi bi-check-circle text-success me-2"></i> <strong>Foro de discusión</strong></li>
+                        <li class="mb-3"><i class="bi bi-check-circle text-success me-2"></i> <strong>Galería de fotos</strong></li>
+                        <li class="mb-3"><i class="bi bi-check-circle text-success me-2"></i> <strong>Gestión de ponentes</strong></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Eventos Próximos -->
+            <div class="mb-5">
+                <h3 class="fw-bold mb-4">Eventos Disponibles</h3>
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="card border-0 shadow-sm h-100 event-card">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-start mb-3">
+                                    <h5 class="card-title fw-bold">WebDev Summit 2025</h5>
+                                    <span class="badge bg-success">Próximo</span>
+                                </div>
+                                <p class="text-muted mb-3">
+                                    <i class="bi bi-calendar3"></i> 5 - 7 de Diciembre, 2025
+                                </p>
+                                <p class="text-muted mb-3">
+                                    <i class="bi bi-geo-alt"></i> Guayaquil, Ecuador
+                                </p>
+                                <p class="card-text mb-3">Conferencia internacional sobre las últimas tendencias en desarrollo web moderno.</p>
+                                <div class="mb-3">
+                                    <p class="mb-1"><small><strong>Ponentes:</strong> 15+</small></p>
+                                    <p class="mb-1"><small><strong>Asistentes:</strong> 500+</small></p>
+                                </div>
+                                <button class="btn btn-primary w-100">Registrarse</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="card border-0 shadow-sm h-100 event-card">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-start mb-3">
+                                    <h5 class="card-title fw-bold">Bootstrap Workshop</h5>
+                                    <span class="badge bg-warning">En 2 semanas</span>
+                                </div>
+                                <p class="text-muted mb-3">
+                                    <i class="bi bi-calendar3"></i> 10 de Diciembre, 2025
+                                </p>
+                                <p class="text-muted mb-3">
+                                    <i class="bi bi-geo-alt"></i> Quito, Ecuador
+                                </p>
+                                <p class="card-text mb-3">Taller práctico para dominar Bootstrap 5 y crear sitios responsivos profesionales.</p>
+                                <div class="mb-3">
+                                    <p class="mb-1"><small><strong>Duración:</strong> 8 horas</small></p>
+                                    <p class="mb-1"><small><strong>Nivel:</strong> Intermedio</small></p>
+                                </div>
+                                <button class="btn btn-warning w-100">Registrarse</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="card border-0 shadow-sm h-100 event-card">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-start mb-3">
+                                    <h5 class="card-title fw-bold">JavaScript Masterclass</h5>
+                                    <span class="badge bg-info">En 3 semanas</span>
+                                </div>
+                                <p class="text-muted mb-3">
+                                    <i class="bi bi-calendar3"></i> 15 de Diciembre, 2025
+                                </p>
+                                <p class="text-muted mb-3">
+                                    <i class="bi bi-geo-alt"></i> Virtual - En línea
+                                </p>
+                                <p class="card-text mb-3">Curso intensivo sobre JavaScript moderno y conceptos avanzados de programación.</p>
+                                <div class="mb-3">
+                                    <p class="mb-1"><small><strong>Formato:</strong> Virtual</small></p>
+                                    <p class="mb-1"><small><strong>Horario:</strong> 18:00 - 20:00</small></p>
+                                </div>
+                                <button class="btn btn-info w-100">Registrarse</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="card border-0 shadow-sm h-100 event-card">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-start mb-3">
+                                    <h5 class="card-title fw-bold">UX/UI Design Conference</h5>
+                                    <span class="badge bg-danger">En 4 semanas</span>
+                                </div>
+                                <p class="text-muted mb-3">
+                                    <i class="bi bi-calendar3"></i> 20 de Diciembre, 2025
+                                </p>
+                                <p class="text-muted mb-3">
+                                    <i class="bi bi-geo-alt"></i> Cuenca, Ecuador
+                                </p>
+                                <p class="card-text mb-3">Conferencia dedicada a las mejores prácticas en diseño de experiencia de usuario.</p>
+                                <div class="mb-3">
+                                    <p class="mb-1"><small><strong>Ponentes:</strong> 10+</small></p>
+                                    <p class="mb-1"><small><strong>Talleres:</strong> 5</small></p>
+                                </div>
+                                <button class="btn btn-danger w-100">Registrarse</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tecnologías Usadas -->
+            <div class="bg-light p-5 rounded mb-5">
+                <h3 class="fw-bold mb-4">Tecnologías Utilizadas</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="bi bi-code text-primary me-2"></i> HTML5 & CSS3</li>
+                            <li class="mb-2"><i class="bi bi-code text-primary me-2"></i> JavaScript ES6+</li>
+                            <li class="mb-2"><i class="bi bi-code text-primary me-2"></i> Bootstrap 5</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="bi bi-code text-primary me-2"></i> React.js</li>
+                            <li class="mb-2"><i class="bi bi-code text-primary me-2"></i> Base de datos Firebase</li>
+                            <li class="mb-2"><i class="bi bi-code text-primary me-2"></i> Google Calendar API</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <a href="index.html#proyectos" class="btn btn-custom btn-lg">Volver a Proyectos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="mb-0">&copy; 2025 Mi Portafolio. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
